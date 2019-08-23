@@ -4,12 +4,21 @@
   box-sizing: border-box;
 }
 .btn {
-  display: block;
+  display: inline-block;
   cursor: pointer;
+  width: 100px;
+  background-color: #ffffff;
+  border: none;
+  border-style: none;
+  color: #ffffff;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 4px;
 }
 a {
   text-decoration: none;
-  color: black;
 }
 html {
   font-size: 10px;
@@ -82,6 +91,8 @@ body {
 .navitems > a:hover {
   color: #808080;
 }
+
+/* MAIN */
 .banner {
   display: block;
   margin: 0 auto;
@@ -124,5 +135,37 @@ body {
 .video-section {
   text-align: center;
 }
-/* MAIN */
+
 /* FOOTER */
+.footer {
+  text-align: center;
+}
+.button {
+  background-color: #ffffff;
+}
+.top {
+  width: 40px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #454545;
+  border: 1px solid #45454531;
+  text-transform: uppercase;
+  position: absolute;
+  top: -25px;
+}
+.top:hover {
+  border: 1px solid #454545;
+}
+.info {
+  width: inherit;
+  height: 200px;
+  background-color: #000000;
+  padding: 60px 20px;
+  color: #ffffff;
+}
+.info > p {
+  font-size: 1.1rem;
+}
+.info a {
+  color: #ffffff;
+}
