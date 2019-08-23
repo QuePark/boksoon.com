@@ -83,15 +83,46 @@ body {
   color: #808080;
 }
 .banner {
+  display: block;
+  margin: 0 auto;
   max-height: 250px;
   width: inherit;
   overflow: hidden;
 }
 .banner > img {
-  margin-top: -20%;
   max-width: initial;
+  margin-top: -100px;
+}
+.intro-text-section {
+  padding-bottom: 70px;
+}
+.subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-family: "PT Serif", serif;
+  font-size: 2.2rem;
+  font-style: normal;
+  color: #454545d7;
+}
+.intro-desc {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  color: #454545b6;
+}
+.intro-img-section {
+  text-align: center;
   margin: 0 auto;
 }
-
+.image-desc {
+  text-align: left;
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+  color: #454545;
+  padding-left: 220px;
+  margin-bottom: 40px;
+}
+.video-section {
+  text-align: center;
+}
 /* MAIN */
 /* FOOTER */
